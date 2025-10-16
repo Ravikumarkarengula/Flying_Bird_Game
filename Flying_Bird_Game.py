@@ -183,7 +183,7 @@ def game_over_screen(score):
                     pygame.quit()
                     exit()
 
-def main(show_start=True):
+def main(show_start=False):
     if show_start:
         start_screen()
 
@@ -231,3 +231,4 @@ def main(show_start=True):
 
 if __name__ == "__main__":
     main()
+
